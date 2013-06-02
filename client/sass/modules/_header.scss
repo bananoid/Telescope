@@ -8,14 +8,14 @@
 // 	}
 // }
 .header{
-	background:$highlight-color url("/img/bg-header.png") top center;
+	// background:$highlight-color url("/img/bg-header.png") top center;
 	background-color:$highlight-color;
 	margin-bottom:$grid-margin;
 	height:$grid-unit;
 	position:relative;
 	@include cf;
-	@include border-radius(0 0 3px 3px);
-	@include box-shadow(0 1px 1px black(1));
+	// @include border-radius(0 0 3px 3px);
+	// @include box-shadow(0 1px 1px black(1));
 	.site-nav{
 		float:left;
 		margin-left:20px;
@@ -112,7 +112,7 @@
 			height:26px;
 			margin-right:10px;
 			cursor:pointer;
-			color:white;	
+			color:white;
 			&:before{
 				color:white(0.5);
 				content:"Welcome, ";

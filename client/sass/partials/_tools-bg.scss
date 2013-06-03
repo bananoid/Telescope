@@ -1,0 +1,29 @@
+.tools-bg{
+  background: transparent;
+  position: absolute;
+  top:0px;
+  left:0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 0;
+  overflow: hidden;
+  font-family: "toolregular";
+  font-size:1000px;
+  color: #E8E4DA;
+
+  span{
+    position: absolute;
+    top:50%;
+    line-height:10px;
+  }
+
+}
+
+
+.outer-wrapper{
+  z-index: 90!important;
+
+  .notifications{
+    z-index: 100!important;
+  }
+}

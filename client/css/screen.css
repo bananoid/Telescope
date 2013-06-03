@@ -760,6 +760,36 @@ body.pageslide-open .posts {
   margin: 0 auto;
 }
 
+/* line 1, ../sass/partials/_tools-bg.scss */
+.tools-bg {
+  background: transparent;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 0;
+  overflow: hidden;
+  font-family: "toolregular";
+  font-size: 1000px;
+  color: #E8E4DA;
+}
+/* line 14, ../sass/partials/_tools-bg.scss */
+.tools-bg span {
+  position: absolute;
+  top: 50%;
+  line-height: 10px;
+}
+
+/* line 23, ../sass/partials/_tools-bg.scss */
+.outer-wrapper {
+  z-index: 90 !important;
+}
+/* line 26, ../sass/partials/_tools-bg.scss */
+.outer-wrapper .notifications {
+  z-index: 100 !important;
+}
+
 /* line 10, ../sass/modules/_header.scss */
 .header {
   background-color: #d8402b;

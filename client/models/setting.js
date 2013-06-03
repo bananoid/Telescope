@@ -1,20 +1,20 @@
 
 Setting = FormModel.extend({
-      
+
   blankSchema: {
     requireViewInvite: false,
-    requirePostInvite: false,
-    requirePostsApproval: false,
-    scoreUpdateInterval: '',
-    postInterval: '',
-    commentInterval: '',
-    maxPostsPerDay: '',
-    title: '',
+    requirePostInvite: true,
+    requirePostsApproval: true,
+    scoreUpdateInterval: '60',
+    postInterval: '60',
+    commentInterval: '60',
+    maxPostsPerDay: '10',
+    title: 'Fablab News',
     tagline: '',
-    logoUrl: '',
-    logoHeight: '',
-    logoWidth: '',
-    defaultEmail: '',
+    logoUrl: '/img/logo.svg',
+    logoHeight: '70',
+    logoWidth: '140',
+    defaultEmail: 'josh@hizen.eu',
     newPostsNotifications: true,
     backgroundColor: '',
     secondaryColor: '',
@@ -26,13 +26,13 @@ Setting = FormModel.extend({
     goSquaredId: '',
     embedlyId: '',
     footerCode: '',
-    extraCode: '', 
+    extraCode: '',
     notes: ''
-  },      
+  },
 
   init: function(options) {
     this._super(Settings, options);
-    this.overwriteTitle('scoreUpdateInterval', 'Scoring Frequency'); 
+    this.overwriteTitle('scoreUpdateInterval', 'Scoring Frequency');
     this.overwriteTitle('requireViewInvite', 'Require Invite to view?');
     this.overwriteTitle('requirePostInvite', 'Require Invite to post?');
     this.overwriteTitle('requirePostsApproval', 'Posts must be approved by admin?');
@@ -46,3 +46,7 @@ Setting = FormModel.extend({
     this.overwriteType('notes', 'textarea');
   }
 });
+
+//heroku config:add MAIL_URL=smtp://postmaster%40YOUR_DOMAIN.mailgun.org:YOUR_PASSWORD@smtp.mailgun.org:587/
+
+//heroku config:add MAIL_URL=smtp://postmaster%40fablabnews.mailgun.org:07gglqp8usk6@smtp.mailgun.org:587/

@@ -127,7 +127,7 @@ html, body, .outer-wrapper {
 
 /* line 4, ../sass/partials/_main.scss */
 body {
-  background: #ffdd00;
+  background: #E2DBCC;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -762,7 +762,7 @@ body.pageslide-open .posts {
 
 /* line 10, ../sass/modules/_header.scss */
 .header {
-  background-color: red;
+  background-color: #b72c15;
   margin-bottom: 10px;
   height: 70px;
   position: relative;
@@ -1055,7 +1055,7 @@ body.pageslide-open .posts {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  background: red url("/img/bg-header.png") top center;
+  background: #b72c15 url("/img/bg-header.png") top center;
 }
 /* line 80, ../sass/modules/_posts.scss */
 .post-content .post-upvote .upvote-link.not-voted:hover i {
@@ -1189,12 +1189,12 @@ body.pageslide-open .posts {
 }
 /* line 185, ../sass/modules/_posts.scss */
 .post-actions li a:hover {
-  background: red url("/img/bg-header.png") top center;
+  background: #b72c15 url("/img/bg-header.png") top center;
   color: white;
 }
 /* line 189, ../sass/modules/_posts.scss */
 .post-actions li a.voted {
-  background: red;
+  background: #b72c15;
   color: white;
   cursor: default;
 }
@@ -1313,7 +1313,7 @@ body.pageslide-open .posts {
 }
 /* line 288, ../sass/modules/_posts.scss */
 .post.sticky .post-actions li a:hover {
-  background: red url("/img/bg-header.png") top center;
+  background: #b72c15 url("/img/bg-header.png") top center;
 }
 
 /* line 292, ../sass/modules/_posts.scss */
@@ -1551,7 +1551,7 @@ body.pageslide-open .posts {
 }
 /* line 200, ../sass/modules/_comments.scss */
 .comment-actions a:hover {
-  background: red;
+  background: #b72c15;
 }
 /* line 202, ../sass/modules/_comments.scss */
 .comment-actions a:hover i {

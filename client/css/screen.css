@@ -774,9 +774,9 @@ body.pageslide-open .posts {
   -ms-border-radius: 0 0 3px 3px;
   -o-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
-  -webkit-box-shadow: 0 1px 5px rgba(165, 13, 0, 0.6);
-  -moz-box-shadow: 0 1px 5px rgba(165, 13, 0, 0.6);
-  box-shadow: 0 1px 5px rgba(165, 13, 0, 0.6);
+  -webkit-box-shadow: 0 1px 1px rgba(165, 13, 0, 0.8);
+  -moz-box-shadow: 0 1px 1px rgba(165, 13, 0, 0.8);
+  box-shadow: 0 1px 1px rgba(165, 13, 0, 0.8);
 }
 /* line 3, ../sass/partials/_mixins.scss */
 .header:before, .header:after {

@@ -76,7 +76,7 @@
 			}
 			&.not-voted:hover{
 				@include box-shadow(none);
-				background:$highlight-color url("/img/bg-header.png") top center;
+				background:$highlight-color top center;
 				i{
 					color:white;
 					text-shadow:none;
@@ -119,7 +119,7 @@
 			}
 			&:hover{
 				color:$red;
-			}	
+			}
 		}
 		.post-domain{
 			color:$light-text;
@@ -183,8 +183,11 @@
 				color:$blue;
 			}
 			&:hover{
-				background:$highlight-color url("/img/bg-header.png") top center;
+				background:$highlight-color top center;
 				color:white;
+				> span.action{
+					color: white;
+				}
 			}
 			&.voted{
 				background:$highlight-color;
@@ -287,7 +290,7 @@
 	}
 	.post-actions li a:hover{
 		background:$highlight-color url("/img/bg-header.png") top center;
-	}	
+	}
 }
 .more-button{
 	position:relative;

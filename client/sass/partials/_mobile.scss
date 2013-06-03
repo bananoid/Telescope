@@ -46,6 +46,37 @@
 		}
 	}
 }
+
+$break-medium: 1000px;
+
+@media screen and (min-width: $break-medium ) and (max-width: 1300px) {
+	// body{
+	// 	background: #00ff00;
+	// }
+	.header {
+		.logo {
+			&.image{
+				margin-left:60px!important;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $break-small) and (max-width: $break-medium ) {
+	// body{
+	// 	background: #ff0000;
+	// }
+	.header {
+		.logo {
+			display: none;
+			&.image{
+				margin-left:60px!important;
+			}
+		}
+	}
+}
+
+
 @media screen and (max-width: $break-small) {
 	.header-button{
 		position:relative;
@@ -89,20 +120,20 @@
 		height:50px;
 		@include border-radius(0px);
 		.logo{
-			top:0px;
+			top:10px;
 			left:0px;
 			font-size:22px;
 			line-height:50px;
 			z-index:10;
 			a{
 				img{
-					height:auto !important;
+					height:40px !important;
 					max-height:40px !important;
 					width:auto !important;
 				}
 			}
 			&.image{
-				margin-top:-10px; //since the mobile header is 20px thinner than the normal one, take off 10px more
+				margin-top:5px; //since the mobile header is 20px thinner than the normal one, take off 10px more
 			}
 		}
 		.auth-buttons{
@@ -140,7 +171,7 @@
 		.mobile-button{
 			z-index:100;
 			@extend .header-button;
-			
+
 			span{
 				display:none;
 			}
@@ -182,7 +213,7 @@
 					display:block;
 					margin-bottom:4px;
 					font-size:13px;
-				}	
+				}
 			}
 			.post-meta{
 				font-size:11px;
@@ -205,7 +236,7 @@
 				a{
 					height:40px;
 					width:40px;
-					font-size:30px;				
+					font-size:30px;
 					i{
 						display:block;
 						position:absolute;

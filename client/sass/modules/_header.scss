@@ -14,13 +14,14 @@
 	height:$grid-unit;
 	position:relative;
 	@include cf;
-	// @include border-radius(0 0 3px 3px);
-	// @include box-shadow(0 1px 1px black(1));
+	@include border-radius(0 0 3px 3px);
+	@include box-shadow(0 1px 5px transparentize( $header-bg - #333333 , 0.4) );
 	.site-nav{
 		float:left;
 		margin-left:20px;
 		position:relative;
 		z-index:20;
+		text-transform: uppercase;
 	}
 	.logo{
 		position:absolute;
@@ -54,8 +55,11 @@
 		margin-right:10px;
 		position:relative;
 		z-index:20;
-		.submit{
-			// background:$red;
+		a.submit.button{
+			background:#f0f0f0;
+			color: #333333;
+			@include box-shadow(0 1px 5px black(0.5));
+
 			// display:block;
 			// padding:0px 10px;
 		}

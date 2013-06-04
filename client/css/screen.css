@@ -773,22 +773,21 @@ body.pageslide-open .posts {
   font-family: "toolregular";
   font-size: 300px;
   color: #E8E4DA;
+  text-align: center;
+  line-height: 0.9em;
 }
-/* line 14, ../sass/partials/_tools-bg.scss */
+/* line 15, ../sass/partials/_tools-bg.scss */
 .tools-bg span {
   position: relative;
   line-height: 0px;
-  display: block;
-  width: 300px;
-  height: 300px;
-  float: left;
+  word-wrap: break-word;
 }
 
-/* line 27, ../sass/partials/_tools-bg.scss */
+/* line 28, ../sass/partials/_tools-bg.scss */
 .outer-wrapper {
   z-index: 90 !important;
 }
-/* line 30, ../sass/partials/_tools-bg.scss */
+/* line 31, ../sass/partials/_tools-bg.scss */
 .outer-wrapper .notifications {
   z-index: 100 !important;
 }

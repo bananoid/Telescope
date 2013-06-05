@@ -766,8 +766,8 @@ body.pageslide-open .posts {
   position: absolute;
   top: 0px;
   left: 0px;
-  bottom: 0px;
   right: 0px;
+  height: 100%;
   z-index: 0;
   overflow: hidden;
   font-family: "toolregular";
@@ -776,18 +776,18 @@ body.pageslide-open .posts {
   text-align: center;
   line-height: 0.9em;
 }
-/* line 15, ../sass/partials/_tools-bg.scss */
+/* line 16, ../sass/partials/_tools-bg.scss */
 .tools-bg span {
   position: relative;
   line-height: 0px;
   word-wrap: break-word;
 }
 
-/* line 28, ../sass/partials/_tools-bg.scss */
+/* line 29, ../sass/partials/_tools-bg.scss */
 .outer-wrapper {
   z-index: 90 !important;
 }
-/* line 31, ../sass/partials/_tools-bg.scss */
+/* line 32, ../sass/partials/_tools-bg.scss */
 .outer-wrapper .notifications {
   z-index: 100 !important;
 }
